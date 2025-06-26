@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advanced Styling & JavaScript</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Advanced Web Features</h1>
+  </header>
+
+  <main>
+    <!-- Responsive Design Area -->
+    <section class="responsive-demo">
+      <h2>Responsive Design Demo</h2>
+      <p>Resize the window to see font and layout changes using media queries.</p>
+    </section>
+
+    <!-- Interactive Quiz -->
+    <section class="quiz-section">
+      <h2>Simple Quiz</h2>
+      <p id="question">What is 2 + 2?</p>
+      <button onclick="checkAnswer(3)">3</button>
+      <button onclick="checkAnswer(4)">4</button>
+      <button onclick="checkAnswer(5)">5</button>
+      <p id="quiz-result"></p>
+    </section>
+
+    <section class="quiz-section">
+      <h2>Simple Quiz</h2>
+      <p id="question">What is 2 * 2?</p>
+      <button onclick="checkAnswer1(3)">3</button>
+      <button onclick="checkAnswer1(4)">4</button>
+      <button onclick="checkAnswer1(5)">5</button>
+      <p id="quiz-result1"></p>
+    </section>
+
+  
+    <!-- API Data -->
+    <section class="api-section">
+      <h2>Random Joke</h2>
+      <button onclick="fetchJoke()">Get Joke</button>
+      <p id="jokeDisplay"></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
